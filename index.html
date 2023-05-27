@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="./css/compressed/home.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav-box">
+            <div class="nav-left">
+              <img src="./images/Group.svg" alt="logo" />
+              <h3>СЕВЕРЯНОЧКА</h3>
+            </div>
+
+            <div class="nav-middle">
+              <div class="nav-btn">
+                <button onclick="toggle()">
+                  <span class="material-symbols-outlined"> menu </span>
+                </button>
+                <h3>Каталог</h3>
+              </div>
+
+              <div class="nav-form">
+                <input type="text" placeholder="Найти товар" />
+                <span class="material-symbols-outlined">search</span>
+              </div>
+            </div>
+
+            <div class="nav-right">
+              <div class="likes">
+                <span class="material-symbols-outlined"> favorite </span>
+                <a href="#" class="likes-text">Избранное</a>
+              </div>
+              <div class="products">
+                <span class="material-symbols-outlined"> deployed_code </span>
+                <a href="#" class="products-text">продукты</a>
+              </div>
+              <div class="shop">
+                <span class="material-symbols-outlined"> shopping_cart </span>
+                <a href="#" class="shop-text">Корзина</a>
+              </div>
+              <div class="alex">
+                <img src="./images/alex.svg" alt="alex" />
+                <p class="alex-text">Алексей</p>
+                <span class="material-symbols-outlined"
+                  >keyboard_arrow_down</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown-menu menus">
+            <div class="menu1">
+              <ul>
+                <li><a href="#">Молоко, сыр, яйцо</a></li>
+                <li><a href="#">Хлеб</a></li>
+                <li><a href="#">Фрукты и овощи</a></li>
+                <li><a href="#">Замороженные продукты</a></li>
+              </ul>
+            </div>
+
+            <div class="menu2">
+              <ul>
+                <li><a href="#">Напитки</a></li>
+                <li><a href="#">Кондитерские изделия</a></li>
+                <li><a href="#">Чай, кофе</a></li>
+              </ul>
+            </div>
+
+            <div class="menu3">
+              <ul>
+                <li><a href="#">Бакалея</a></li>
+                <li><a href="#">Здоровое питание</a></li>
+                <li><a href="#">Зоотовары</a></li>
+              </ul>
+            </div>
+
+            <div class="menu4">
+              <ul>
+                <li><a href="#">Непродовольственные товары</a></li>
+                <li><a href="#">Детское питание</a></li>
+                <li><a href="#">Мясо, птица, колбаса</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="fruits">
+        <div class="container">
+          <div class="fruits">
+            <div class="fruits-combo">
+              <div class="img-fruit">
+                <img src="./images/img-fruit.png" alt="" />
+              </div>
+              <h1>Доставка бесплатно от 1000 ₽</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="aksiya">
+        <div class="container">
+          <div class="name-aksiya">
+            <h1>Акции</h1>
+            <a href="#">Все продукты <span>></span></a>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-1-blinchik.svg" alt="img" />
+                <span class="sale">-50%</span>
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">44,50 ₽</p>
+                    <p class="second-price">50,50 ₽</p>
+                  </div>
+
+                  <div class="pay">
+                    <p class="with-card">С картой</p>
+                    <p class="simple">Обычная</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Г/Ц Блинчики с мясом вес, <br />
+                    Россия
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/moloko.png" alt="img" />
+                <span class="sale">-50%</span>
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">44,50 ₽</p>
+                    <p class="second-price">50,50 ₽</p>
+                  </div>
+
+                  <div class="pay">
+                    <p class="with-card">С картой</p>
+                    <p class="simple">Обычная</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Молоко ПРОСТОКВАШИНО паст. <br />
+                    питьевое цельное отборное...
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-3-kolbasa.svg" alt="img" />
+                <span class="sale">-50%</span>
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">44,50 ₽</p>
+                    <p class="second-price">50,50 ₽</p>
+                  </div>
+
+                  <div class="pay">
+                    <p class="with-card">С картой</p>
+                    <p class="simple">Обычная</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Колбаса сырокопченая МЯСНАЯ <br />
+                    ИСТОРИЯ Сальчичон и Тоскан...
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-4-sosiska.png" alt="img" />
+                <span class="sale">-50%</span>
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">44,50 ₽</p>
+                    <p class="second-price">50,50 ₽</p>
+                  </div>
+
+                  <div class="pay">
+                    <p class="with-card">С картой</p>
+                    <p class="simple">Обычная</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Сосиски вареные МЯСНАЯ <br />
+                    ИСТОРИЯ Молочные и С сыро...
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="novinki">
+        <div class="container">
+          <div class="name-novinki">
+            <h1>Новинки</h1>
+            <a href="#">Все продукты <span>></span></a>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/kolbasa-palka.svg" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">599,99 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-3-kolbasa.svg" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">44,50 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Колбаса сырокопченая МЯСНАЯ <br />
+                    ИСТОРИЯ Сальчичон и Тоскан...
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-4-sosiska.png" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">159,99 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/moloko.png" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">49,39 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pokupali-ranshe">
+        <div class="container">
+          <div class="name-pokupka">
+            <h1>Покупали раньше</h1>
+            <a href="#">Все продукты <span>></span></a>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/kapchonni.svg" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">77,99 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/card-4-sosiska.png" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">159,99 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/kolbasa-palka.svg" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">599,99 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="./images/moloko.png" alt="img" />
+                <span class="material-symbols-outlined heart"> favorite </span>
+              </div>
+              <div class="card-bottom">
+                <div class="price-pay">
+                  <div class="price">
+                    <p class="first-price">49,39 ₽</p>
+                  </div>
+                </div>
+
+                <div class="card-info">
+                  <p>
+                    Комбайн КЗС-1218 <br />
+                    «ДЕСНА-ПОЛЕСЬЕ GS12»
+                  </p>
+                </div>
+
+                <div class="card-star">
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                  <span class="material-symbols-outlined"> star </span>
+                </div>
+
+                <div class="card-btn">
+                  <button><a href="#">В корзину</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="prilojeniya">
+        <div class="container">
+          <div class="prilojeniya">
+            <h1>Специальные предложения</h1>
+          </div>
+
+          <div class="prilojeniya-left-right">
+            <div class="prilojeniya-left">
+              <div class="pr-l">
+                <h2>Оформите карту «Северяночка»</h2>
+                <h4>И получайте бонусы при покупке в магазинах и на сайте</h4>
+              </div>
+              <div class="pr-r">
+                <img src="./images/sovun.png" alt="" />
+              </div>
+            </div>
+
+            <div class="prilojeniya-right">
+              <div class="pr-l">
+                <h2>Покупайте акционные товары</h2>
+                <h4>И получайте вдвое больше бонусов</h4>
+              </div>
+              <div class="pr-r">
+                <img src="./images/korzina-prilojeniya.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ap-tab">
+        <div class="container">
+          <div class="ap-tab-intro">
+            <h1>Наши магазины</h1>
+          </div>
+
+          <div class="ap-tab">
+            <!-- Tab buttons -->
+            <button class="tab-btn" onclick="changeTab(0)">п.Щельяюр</button>
+            <button class="tab-btn" onclick="changeTab(1)">д.Вертеп</button>
+            <button class="tab-btn" onclick="changeTab(2)">с.Краснобор</button>
+            <button class="tab-btn" onclick="changeTab(3)">д.Диюр</button>
+
+            <!-- Tab contents -->
+            <div class="tab" id="tab1">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26652.468219883038!2d53.37232356627781!3d65.32267171595434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4472340bbf53f20d%3A0x6aaf90d406ef7886!2z0KnQtdC70YzRj9GO0YAsINCg0LXRgdC_LiDQmtC-0LzQuCwg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2s!4v1684957597477!5m2!1sru!2s"
+                width="100%"
+                height="354"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="tab" id="tab2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6669.527745538458!2d53.18474017940187!3d65.29734081591306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x447249e2718cd461%3A0x25c0f625da4e30ed!2z0JLQtdGA0YLQtdC_LCDQoNC10YHQvy4g0JrQvtC80LgsINCg0L7RgdGB0LjRjywgMTY5NDcz!5e0!3m2!1sru!2s!4v1684957667900!5m2!1sru!2s"
+                width="100%"
+                height="354"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="tab" id="tab3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13341.632918229136!2d53.26930253314216!3d65.2922480321743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x447235dd2ca590b3%3A0xc633232da326cfaf!2z0JrRgNCw0YHQvdC-0LHQvtGALCDQoNC10YHQvy4g0JrQvtC80LgsINCg0L7RgdGB0LjRjywgMTY5NDcz!5e0!3m2!1sru!2s!4v1684957708628!5m2!1sru!2s"
+                width="100%"
+                height="354"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="tab" id="tab4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13350.044498607233!2d53.33805138305653!3d65.27562599278535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x447235aa69816fb7%3A0x7202220934f2d943!2z0JTQuNGO0YAsINCg0LXRgdC_LiDQmtC-0LzQuCwg0KDQvtGB0YHQuNGPLCAxNjk0NzE!5e0!3m2!1sru!2s!4v1684957744806!5m2!1sru!2s"
+                width="100%"
+                height="354"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="statya">
+        <div class="container">
+          <div class="statya-intro">
+            <h1>Статьи</h1>
+            <a href="#">Все статьи <span>></span></a>
+          </div>
+
+          <div class="statya-cards">
+            <div class="statya-card">
+              <div class="card-top">
+                <img src="./images/statya-1.svg" alt="img" />
+              </div>
+
+              <div class="card-bottom">
+                <p class="data">05.03.2021</p>
+                <h5>
+                  Режим использования масок и перчаток на территории магазинов
+                </h5>
+                <p class="text">
+                  Подробная информация о режимах использования масок и перчаток
+                  на территории магазинов "ЛЕНТА". Информация обновляется каждый
+                  будний день.
+                </p>
+                <button><a href="#">Подробнее</a></button>
+              </div>
+            </div>
+
+            <div class="statya-card">
+              <div class="card-top">
+                <img src="./images/nature.svg" alt="img" />
+              </div>
+
+              <div class="card-bottom">
+                <p class="data">05.03.2021</p>
+                <h5>Весеннее настроение для каждой</h5>
+                <p class="text">
+                  8 Марта – это не просто Международный женский день, это ещё
+                  день тюльпанов, приятных сюрпризов и праздничных тёплых
+                  пожеланий.
+                </p>
+                <button class="statya-btn"><a href="#">Подробнее</a></button>
+              </div>
+            </div>
+
+            <div class="statya-card">
+              <div class="card-top">
+                <img src="./images/food.svg" alt="img" />
+              </div>
+
+              <div class="card-bottom">
+                <p class="data">22.02.2020</p>
+                <h5>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</h5>
+                <p class="text">
+                  Голосуйте за любимые категории, выбирайте категорию-победителя
+                  в мобильном приложении и получайте кешбэк 10% баллами в
+                  апреле!
+                </p>
+                <button><a href="#">Подробнее</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-left-right">
+          <div class="footer-left">
+            <img src="./images/footer-logo.svg" alt="logo" />
+            <ul>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Вакансии</a></li>
+              <li><a href="#">Статьи</a></li>
+              <li><a href="#">Политика обработки персональных данных</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-right">
+            <div class="img-box">
+              <img src="./images/instagram.svg" alt="instagram" />
+              <img src="./images/vk.svg" alt="vk" />
+              <img src="./images/facebook.svg" alt="facebook" />
+              <img src="./images/ok.svg" alt="ok" />
+            </div>
+
+            <div class="contact">
+              <span class="material-symbols-outlined">call</span>
+              <p>8 800 777 33 33</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="nav-footer">
+      <div class="foo-btn">
+        <button onclick="toggle()">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+      </div>
+      <div class="likes">
+        <span class="material-symbols-outlined"> favorite </span>
+        <p class="likes-text">Избранное</p>
+      </div>
+      <div class="products">
+        <span class="material-symbols-outlined"> deployed_code </span>
+        <p class="products-text">продукты</p>
+      </div>
+      <div class="shop">
+        <span class="material-symbols-outlined"> shopping_cart </span>
+        <p class="shop-text">Корзина</p>
+      </div>
+      <div class="alex">
+        <img src="./images/alex.svg" alt="alex" />
+        <p class="alex-text">Алексей</p>
+        <span class="material-symbols-outlined">keyboard_arrow_down</span>
+      </div>
+    </div>
+    <script src="./js/ap-tab.js"></script>
+    <script src="./js/nav-toggle.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

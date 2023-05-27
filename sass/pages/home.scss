@@ -1,0 +1,1171 @@
+@use "../global";
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.d-block {
+  display: flex !important;
+}
+
+.dropdown-menu {
+  display: none;
+  justify-content: space-between;
+  padding: 15px 0;
+  li {
+    padding: 10px 0;
+  }
+  .menu1 a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    &:hover {
+      color: red;
+    }
+  }
+  .menu2 a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    &:hover {
+      color: red;
+    }
+  }
+  .menu3 a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    &:hover {
+      color: red;
+    }
+  }
+  .menu4 a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    &:hover {
+      color: red;
+    }
+  }
+}
+//nav-toggle
+
+//modal
+
+//modal
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+
+  //nav-left
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    h3 {
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #414141;
+    }
+  }
+
+  //nav-middle
+  .nav-middle {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background: #70c05b;
+      border-radius: 4px;
+      button {
+        padding: 6px 8px;
+        border: none;
+        background-color: transparent;
+        font-size: 12px;
+        span {
+          color: #ffffff;
+        }
+      }
+      h3 {
+        padding: 6px 10px 6px 0;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #ffffff;
+      }
+    }
+    .nav-form {
+      border: 1px solid #70c05b;
+      border-radius: 4px;
+      height: 40px;
+      width: 365px;
+      input {
+        width: 100%;
+        border: none;
+        padding-left: 15px;
+        padding-top: 8px;
+        color: #8f8f8f;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+      }
+      span {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        color: grey;
+      }
+    }
+  }
+  //nav-right
+  .nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    .likes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      span {
+        color: grey;
+      }
+      a {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+        cursor: pointer;
+      }
+      &:hover > span {
+        color: red;
+        transform: scale(1.2) translate(0%, -10%);
+      }
+    }
+    .products {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      span {
+        color: grey;
+      }
+      a {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+      &:hover > span {
+        color: red;
+        transform: scale(1.2) translate(0%, -10%);
+      }
+    }
+    .shop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      span {
+        color: grey;
+        &:hover {
+          color: red;
+          transform: scale(1.2) translate(0%, -10%);
+        }
+      }
+      a {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+        cursor: pointer;
+      }
+      &:hover > span {
+        color: red;
+        transform: scale(1.2) translate(0%, -10%);
+      }
+    }
+    .alex {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      span {
+        color: grey;
+      }
+      p {
+        margin-right: 20px;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+  }
+}
+//header end
+
+//main start
+main {
+  padding-top: 80px;
+}
+//section fruit
+#fruits {
+  background-image: url(../../images/fruits1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.fruits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruits-combo {
+  padding-top: 25px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  .img-fruit {
+    max-width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+  }
+}
+//section fruit end
+
+//section aksiya start
+
+#aksiya {
+  background-color: #fcf6e4;
+}
+
+.name-aksiya {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 76px 0 40px;
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+  }
+  a {
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #606060;
+  }
+}
+//aksiya end
+
+//cards start
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+  .card {
+    width: 100%;
+    max-width: 272px;
+    height: 380px;
+    background: #ffffff;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    img {
+      width: 100%;
+    }
+    .card-top {
+      position: relative;
+      .sale {
+        top: 120px;
+        left: 15px;
+        position: absolute;
+        padding: 4px 8px;
+        background: #ff6633;
+        border-radius: 4px;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #ffffff;
+      }
+      .heart {
+        padding: 6px 5px;
+        background: #f3f2f1;
+        opacity: 0.5;
+        border-radius: 4px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 28px;
+      }
+    }
+  }
+  .card-bottom {
+    padding: 10px 10px;
+    .price-pay {
+      .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .first-price {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          color: #414141;
+        }
+        .second-price {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #606060;
+        }
+      }
+      .pay {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .simple,
+        .with-card {
+          font-family: "Rubik", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 150%;
+          color: #bfbfbf;
+        }
+      }
+    }
+    .card-info {
+      padding: 8px 0;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #414141;
+    }
+    .card-star {
+      span:nth-child(1) {
+        color: #ff6633;
+        cursor: pointer;
+      }
+      span:nth-child(2) {
+        color: #ff6633;
+        cursor: pointer;
+      }
+      span {
+        color: grey;
+        cursor: pointer;
+      }
+    }
+    .card-btn button {
+      border: 1px solid #70c05b;
+      background-color: transparent;
+      width: 100%;
+      padding: 10px 10px;
+      border-radius: 8px;
+      margin-top: 10px;
+      &:hover {
+        transition: 0.8s;
+        background-color: #ff6633;
+        border: 1px solid #ff6633;
+        color: #fff;
+      }
+      &:hover > a {
+        color: #fff;
+      }
+      a {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #70c05b;
+      }
+    }
+  }
+}
+//cards end
+
+//#novinki start
+
+#novinki {
+  background-color: #fcf6e4;
+  .name-novinki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 40px;
+    h1 {
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+      color: #414141;
+    }
+    a {
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #606060;
+    }
+  }
+}
+
+//novinki end
+
+//pokupka start
+#pokupali-ranshe {
+  background-color: #fcf6e4;
+  .name-pokupka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 40px;
+    h1 {
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+      color: #414141;
+    }
+    a {
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #606060;
+    }
+  }
+}
+//pokupka end
+
+//prilojeniya
+
+#prilojeniya {
+  background-color: #fcf6e4;
+  padding-bottom: 60px;
+  .prilojeniya {
+    h1 {
+      padding: 120px 0 40px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+      color: #414141;
+    }
+  }
+}
+
+.prilojeniya-left-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .prilojeniya-left {
+    background: #fcd5ba;
+    box-shadow: 0px 8px 16px rgba(202, 147, 96, 0.5);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 588px;
+    width: 100%;
+    padding: 30px 40px;
+    h2 {
+      width: 258px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 150%;
+      color: #414141;
+    }
+    h4 {
+      padding-top: 10px;
+      max-width: 258px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #414141;
+    }
+    .pr-r {
+      img {
+        max-width: 206px;
+        width: 100%;
+      }
+    }
+  }
+  .prilojeniya-right {
+    background-image: url(../../images/korzina-bcg.png);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 588px;
+    width: 100%;
+    padding: 30px 40px;
+    .pr-l {
+      h2 {
+        width: 258px;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        color: #414141;
+      }
+      h4 {
+        padding-top: 10px;
+        max-width: 258px;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+    .pr-r {
+      img {
+        max-width: 145px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//prilojeniya end
+
+//ap-tab start
+
+/* Styles for the tabs */
+#ap-tab {
+  background-color: #fcf6e4;
+  .ap-tab-intro {
+    h1 {
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+      color: #414141;
+    }
+  }
+}
+
+.ap-tab {
+  padding: 40px 0 24px;
+}
+
+.tab {
+  display: none;
+}
+
+/* Styles for the active tab */
+.tab.active {
+  display: block;
+}
+
+/* Styles for the buttons */
+.tab-btn {
+  background-color: #eee;
+  padding: 10px 20px;
+  margin: 24px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the active button */
+.tab-btn.active {
+  background-color: #70c05b;
+}
+
+/* Hover effect for the buttons */
+.tab-btn:hover {
+  background-color: #ddd;
+}
+//ap-tab end
+
+//statya start
+
+#statya {
+  background-color: #fcf6e4;
+}
+
+.statya-intro {
+  padding: 100px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+  }
+  a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #606060;
+  }
+}
+
+.statya-cards {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statya-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  max-width: 376px;
+  height: 450px;
+  background: #ffffff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  .card-top {
+    img {
+      width: 100%;
+    }
+  }
+  .card-bottom {
+    .data {
+      padding: 10px 10px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #8f8f8f;
+    }
+    h5 {
+      padding: 0 10px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      color: #414141;
+    }
+    .text {
+      padding: 10px 10px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #414141;
+    }
+    button {
+      margin: 0 0 0 10px;
+      max-width: 150px;
+      width: 100%;
+      height: 40px;
+      background: #e5ffde;
+      border-radius: 4px;
+      border: none;
+      &:hover {
+        transition: 0.8s;
+        background-color: #70c05b;
+        color: #fff;
+      }
+      &:hover > a {
+        color: #fff;
+      }
+    }
+    .statya-btn {
+      margin-top: 20px;
+    }
+    a {
+      padding: 10px 10px;
+      font-family: "Rubik", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #70c05b;
+    }
+  }
+}
+
+//statya end
+
+//main end
+
+//footer start
+
+footer {
+  background-color: #fcf6e4;
+  padding: 37px 0 70px 0;
+}
+
+.footer-left-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .footer-left {
+    display: flex;
+    img {
+      margin-right: 25px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      a {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .img-box {
+      display: flex;
+      gap: 15px;
+      img {
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+    .contact {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      p {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+  }
+}
+
+//footer end
+
+.nav-footer {
+  display: none;
+}
+
+//responsive
+@media (max-width: 1250px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 35px;
+  }
+  .prilojeniya-left-right {
+    .prilojeniya-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 500px;
+      width: 100%;
+    }
+    .prilojeniya-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+  .statya-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-left {
+    h3 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-btn button,
+  span,
+  h3 {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .prilojeniya-left-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    .prilojeniya-left {
+      max-width: 550px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .prilojeniya-right {
+      max-width: 550px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .statya-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    row-gap: 20px;
+  }
+  .footer-left-right {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-right {
+    .alex {
+      .alex-text {
+        display: none;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .nav-right {
+    .likes,
+    .products,
+    .shop,
+    a,
+    span {
+      display: none;
+    }
+    .alex {
+      img {
+        display: none;
+      }
+    }
+  }
+  .fruits-combo {
+    h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+  }
+  .dropdown-menu {
+    flex-wrap: wrap;
+
+    .menu1 a {
+      font-size: 18px;
+    }
+    .menu2 a {
+      font-size: 18px;
+    }
+    .menu3 a {
+      font-size: 18px;
+    }
+    .menu4 a {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-form {
+    max-width: 260px;
+    input {
+      width: 100%;
+    }
+  }
+  .img-fruit {
+    img {
+      display: none;
+    }
+  }
+  .fruits-combo {
+    h1 {
+      text-align: center;
+      padding-top: 50px;
+      font-size: 28px;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 35px;
+    justify-content: center;
+  }
+  .footer-left-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 70px;
+      margin-left: 110px;
+      padding-bottom: 25px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    .contact {
+      padding-top: 25px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .statya-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    row-gap: 20px;
+    .statya-card {
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .nav-footer {
+    margin-top: 40px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    .foo-btn button {
+      border: none;
+      padding: 3px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .likes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        transform: scale(1.2);
+      }
+      span {
+        color: grey;
+      }
+      p {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+    .products {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        transform: scale(1.2);
+      }
+      span {
+        color: grey;
+      }
+      p {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+    .shop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        transform: scale(1.2);
+      }
+      span {
+        color: grey;
+      }
+      p {
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+    .alex {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      &:hover {
+        transform: scale(1.2);
+      }
+      span {
+        display: none;
+        color: grey;
+      }
+      p {
+        display: none;
+        margin-right: 20px;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #414141;
+      }
+    }
+  }
+  .dropdown-menu {
+    flex-direction: column;
+    text-align: center;
+    .menu1 a {
+      font-size: 12px;
+    }
+    .menu2 a {
+      font-size: 12px;
+    }
+    .menu3 a {
+      font-size: 12px;
+    }
+    .menu4 a {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .prilojeniya-left-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    .prilojeniya-left {
+      max-width: 280px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .prilojeniya-right {
+      max-width: 280px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
