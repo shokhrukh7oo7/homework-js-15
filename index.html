@@ -48,12 +48,28 @@
                 <span class="material-symbols-outlined"> shopping_cart </span>
                 <a href="#" class="shop-text">Корзина</a>
               </div>
-              <div class="alex">
+              <div class="alex" id="modalBtn">
                 <img src="./images/alex.svg" alt="alex" />
                 <p class="alex-text">Алексей</p>
                 <span class="material-symbols-outlined"
                   >keyboard_arrow_down</span
                 >
+              </div>
+
+              <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h2>Вход</h2>
+                  <p class="phone">Телефон</p>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter phone number" required>
+                  <div class="modal-btn">
+                    <button><a href="#">Вход</a></button>
+                  </div>
+                  <div class="registr">
+                    <button class="btn1"><a href="#">Регистрация</a></button>
+                    <button class="btn2"><a href="#">Забыли пароль?</a></button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -109,7 +125,7 @@
         </div>
       </section>
 
-      <section id="aksiya">
+      <!-- <section id="aksiya">
         <div class="container">
           <div class="name-aksiya">
             <h1>Акции</h1>
@@ -278,7 +294,8 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+      <script src="./js/card.js"></script>
 
       <section id="novinki">
         <div class="container">
